@@ -9,6 +9,6 @@ Several problems:
 
 * huge loop inside `RawConfigParser._read` method with very few ways of
   hooking into it.
-* strict = False is the only way to avoid `DuplicateOptionError` errors in
+* `strict = False` is the only way to avoid `DuplicateOptionError` errors in
   that loop.
 * other methods raise `DuplicateOptionError` errors.
